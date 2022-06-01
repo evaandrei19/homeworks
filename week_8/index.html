@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
+    <title>Random imag</title>
+  </head>
+
+  <body>
+    <div class="container">
+    
+      <label for="pet-select">Get a photo:</label>
+      <select name="pets" id="pet-select">
+        <option disable hidden selected>Please choose an option</option>
+        <option value="dog">Dog</option>
+        <option value="cat">Cat</option>
+        <option value="fox">Fox</option>
+      </select>
+      <button onclick="getPhoto()">Get now!</button>
+      
+      <div id="animalContainer">
+        This is a placeholder <br /> 
+        for the image/gif/video <br /> 
+        from the web
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

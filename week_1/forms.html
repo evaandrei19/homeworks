@@ -1,0 +1,64 @@
+ <form>
+    <input name="subject" type="hidden" value="Class" />
+      <fieldset><legend>Employee information</legend>
+          <label for="functia">Function</label>
+            <select name="degree" id="degree">
+               <        option value="PS">Production Supervisor</option>
+                        <option value="EC">Engineering Coordinator</option>
+               <option value="PE">Product Engineer</option>
+               <option value="PM"></option>selected="selected">Production Manager</option>
+            </select>
+            <br />
+                        <label for="IDEMPLOYEE">Id Employee</label>
+               <input type="password" name="ID EMPLOYEE" />
+                        <br />
+
+
+
+
+
+
+
+
+
+
+<label for="SHIFT LABOUR">Shift Labour</label>
+  <select multiple name="classes" id="classes">
+      <option value="1">first shift</option>      <option value="2">second shift</option>
+                           <option value="3">third shift</option>
+                  <option value="4">Tesla</option          </select>         
+               <label for="Engineering skills">Engineering Skills</label>
+                             <select multiple name="classes" id="classes">
+                     <option value="1">Problem solving</option>
+                     <option value="2">Industry skills</option>
+                     <option value="3">Teamwork</option>
+                     <option value="4">Leadership</option>
+                  </select>
+         </fieldset>
+
+   <fieldset><legend>Personal Details</legend>
+      <label for="fname">First Name</label>
+      <input type="text" name="fname" id="fname" />
+      <br />
+      <label for="lname">Last Name</label>
+      <input type="text" name="lname" id="lname" />
+      <br />
+      Gender:
+      <input name="gender" type="radio" id="gm" value="m" />
+      <label for="gm">Male</label>
+      <input name="gender" type="radio" id="gf" value="f" />
+      <label for="gf">Female</label>
+      <br />
+      <label for="email">Email</label>
+      <input type="text" name="email" id="email" />
+   </fieldset>
+    <p>
+    <textarea name="terms" cols="30" rows="4"
+    readonly="readonly">TERMS AND CONDITIONS...</textarea>
+    </p>
+    <p>
+    <input type="submit" name="submit" value="Send Form" />
+    <input type="reset" value="Clear Form" />
+    </p>
+</form>
+   

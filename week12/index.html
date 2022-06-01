@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
+    <title>week_12</title>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <a class="navbar-brand" href="#car">Car</a>
+      <a class="navbar-brand" href="#bus">Bus</a>
+      <a class="navbar-brand" href="#truck">Truck</a>
+    </nav>
+    <div class="fixed-top" style="margin-top: 50px">
+      <button onclick="goto()" type="button" class="btn btn-primary">GoTo</button>
+      <input type="text" id="name-goto" />
+      <br />
+      <button onclick="replaceWith()" type="button" class="btn btn-primary">
+        Replace
+      </button>
+      <input type="text" id="name-replace" />
+      <br />
+      <button onclick="back()" type="button" class="btn btn-primary">
+        Back <
+      </button>
+      <button onclick="forward()" type="button" class="btn btn-primary">
+        Forward >
+      </button>
+    </div>
+    
+    <br /><br /><br /><br /><br /><br /><br />
+
+    <section id="car">
+      <h2>What is Lorem Ipsum?</h2>
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+      Lorem Ipsum has been the industry's standard dummy text ever since the
+      1500s, when an unknown printer took a galley of type and scrambled it to
+      make a type specimen book. It has survived not only five centuries, but
+      also the leap into electronic typesetting, remaining essentially
+      unchanged. It was popularised in the 1960s with the release of Letraset
+      sheets containing Lorem Ipsum passages, and more recently with desktop
+      publishing software like Aldus PageMaker including versions of Lorem
+      Ipsum. Why do we use it? It is a long established fact that a reader will
+      be distracted by the readable content of a page when looking at its
+      layout. The point of using Lorem Ipsum is that it has a more-or-less
+      normal distribution of letters, as opposed to using 'Content here, content
+      here', making it look like readable English. Many desktop publishing
+      packages and web page editors now use Lorem Ipsum as their default model
+      text, and a search for 'lorem ipsum' will uncover many web sites still in
+      their infancy. Various versions have evolved over the years, sometimes by
+      accident, sometimes on purpose (injected humour and the like). Where does
+      it come from? Contrary to popular belief, Lorem Ipsum is not simply random
+      text. It has roots in a piece of classical Latin literature from 45 BC,
+      making it over 2000 years old. here', making it look like readable English. Many desktop publishing
+      packages and web page editors now use Lorem Ipsum as their default model
+      text, and a search for 'lorem ipsum' will uncover many web sites still in
+      their infancy. Various versions have evolved over the years, sometimes by
+      accident, sometimes on purpose (injected humour and the like). Where does
+      it come from? Contrary to popular belief, Lorem Ipsum is not simply random
+      text. It has roots in a piece of classical Latin literature from 45 BC,
+      making it over 2000 years old.
+    </section>
+
+    <section id="bus">
+      <h2>Where does it come from?</h2>
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+      Lorem Ipsum has been the industry's standard dummy text ever since the
+      1500s, when an unknown printer took a galley of type and scrambled it to
+      make a type specimen book. It has survived not only five centuries, but
+      also the leap into electronic typesetting, remaining essentially
+      unchanged. It was popularised in the 1960s with the release of Letraset
+      sheets containing Lorem Ipsum passages, and more recently with desktop
+      publishing software like Aldus PageMaker including versions of Lorem
+      Ipsum. Why do we use it? It is a long established fact that a reader will
+      be distracted by the readable content of a page when looking at its
+      layout. The point of using Lorem Ipsum is that it has a more-or-less
+      normal distribution of letters, as opposed to using 'Content here, content
+      here', making it look like readable English. Many desktop publishing
+      packages and web page editors now use Lorem Ipsum as their default model
+      text, and a search for 'lorem ipsum' will uncover many web sites still in
+      their infancy. Various versions have evolved over the years, sometimes by
+      accident, sometimes on purpose (injected humour and the like). Where does
+      it come from? Contrary to popular belief, Lorem Ipsum is not simply random
+      text. It has roots in a piece of classical Latin literature from 45 BC,
+      making it over 2000 years old. here', making it look like readable English. Many desktop publishing
+      packages and web page editors now use Lorem Ipsum as their default model
+      text, and a search for 'lorem ipsum' will uncover many web sites still in
+      their infancy. Various versions have evolved over the years, sometimes by
+      accident, sometimes on purpose (injected humour and the like). Where does
+      it come from? Contrary to popular belief, Lorem Ipsum is not simply random
+      text. It has roots in a piece of classical Latin literature from 45 BC,
+      making it over 2000 years old.
+    </section>
+
+    <section id="truck">
+      <h2>Why do we use it?</h2>
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+      Lorem Ipsum has been the industry's standard dummy text ever since the
+      1500s, when an unknown printer took a galley of type and scrambled it to
+      make a type specimen book. It has survived not only five centuries, but
+      also the leap into electronic typesetting, remaining essentially
+      unchanged. It was popularised in the 1960s with the release of Letraset
+      sheets containing Lorem Ipsum passages, and more recently with desktop
+      publishing software like Aldus PageMaker including versions of Lorem
+      Ipsum. Why do we use it? It is a long established fact that a reader will
+      be distracted by the readable content of a page when looking at its
+      layout. The point of using Lorem Ipsum is that it has a more-or-less
+      normal distribution of letters, as opposed to using 'Content here, content
+      here', making it look like readable English. Many desktop publishing
+      packages and web page editors now use Lorem Ipsum as their default model
+      text, and a search for 'lorem ipsum' will uncover many web sites still in
+      their infancy. Various versions have evolved over the years, sometimes by
+      accident, sometimes on purpose (injected humour and the like). Where does
+      it come from? Contrary to popular belief, Lorem Ipsum is not simply random
+      text. It has roots in a piece of classical Latin literature from 45 BC,
+      making it over 2000 years old. here', making it look like readable English. Many desktop publishing
+      packages and web page editors now use Lorem Ipsum as their default model
+      text, and a search for 'lorem ipsum' will uncover many web sites still in
+      their infancy. Various versions have evolved over the years, sometimes by
+      accident, sometimes on purpose (injected humour and the like). Where does
+      it come from? Contrary to popular belief, Lorem Ipsum is not simply random
+      text. It has roots in a piece of classical Latin literature from 45 BC,
+      making it over 2000 years old.
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>

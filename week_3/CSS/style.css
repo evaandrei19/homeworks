@@ -1,0 +1,127 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* START */
+
+@font-face {
+    font-family: Muli;
+    src: url(../Fonts/muli-cufonfonts/Muli-Black.ttf);
+}
+
+body {
+	background-color: rgb(208, 224, 216);
+}
+
+h1{
+	text-align: center;
+	color:azure;
+	font-size: 50px;
+	padding: 50px 15px 20px 25px;
+}
+
+.container{
+	width: 100%;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.col {
+	width: 33%;
+	float: left;
+}
+
+.col img {
+	width: 85%;
+}
+
+
+.col h3 {
+	text-align: center;
+	font-size: 22px;
+    margin: 20px 0px 15px;
+	width: 85%;
+}
+
+.reviews {
+	text-align: center;
+    width: 85%;
+    margin: 10px;
+}
+
+.reviews img {
+	width: 23px;
+}
+
+.col p {
+	text-align: center;
+	width: 85%;
+}
+
+.btn-container {
+	text-align: center;
+    width: 85%;
+    margin: 15px;
+}
+
+.btn-container button {
+	width: 75px;
+    height: 30px;
+    text-transform: uppercase;
+	border: 2px black solid;
+}
+
+.btn-container button:first-child {
+	background: black;
+	color: white;
+}
+
+
+
+ 

@@ -1,0 +1,26 @@
+/* div .red{
+     color:red;
+     background-color: aqua;
+ }*/
+ 
+
+/*div .p{
+    color:blueviolet;
+    background-color:cornflowerblue;
+}*/
+
+
+ /* #container p {
+    color:white;
+    background-color:black;
+} */ 
+     
+/*
+p + a::first-letter{
+    font-size: xx-large;
+    color:red;
+}
+*/
+#paragraph div > p > a :hover{
+    color:yellow;
+}

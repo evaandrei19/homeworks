@@ -1,0 +1,39 @@
+canvas {
+  background: #ddd;
+  width: 1000px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+@media screen and (max-width: 1920px) {
+  .responsive {
+    padding: 0px 20px;
+    border-width: 10px;
+    border-style: solid;
+    background-color: rgb(28, 230, 230);
+    border-color: rgb(145, 145, 28);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .responsive {
+    padding: 0px 20px;
+    border-width: 10px;
+    border-style: solid;
+    background-color: green;
+    border-color: blue;
+  }
+}
+@media screen and (max-width: 800px) {
+  .responsive {
+    padding: 0px 20px;
+    border-width: 10px;
+    border-style: solid;
+    background-color: violet;
+    border-color: rgb(156, 81, 241);
+  }
+
+  
+}
